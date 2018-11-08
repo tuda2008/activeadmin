@@ -88,6 +88,10 @@ RSpec.describe ActiveAdmin::Filters::ViewHelper do
       expect(body).to have_selector("input[name='q[title_contains]']")
     end
 
+    it "should generate a select option for not_contains" do
+      expect(body).to have_selector("option[value=title_not_contains]", text: "Not contains")
+    end
+
     it "should have a proper label" do
       expect(body).to have_selector("label", text: "Title")
     end
