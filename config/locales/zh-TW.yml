@@ -26,6 +26,7 @@
         clear: "清除篩選條件"
       predicates:
         contains: "包含"
+        not_contains: "不包含"
         equals: "等於"
         starts_with: "開頭為"
         ends_with: "結尾為"

@@ -26,6 +26,7 @@
         clear: "清除条件"
       predicates:
         contains: "包含"
+        not_contains: "不包含"
         equals: "等于"
         starts_with: "开头"
         ends_with: "完与"
